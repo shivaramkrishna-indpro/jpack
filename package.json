@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node test/test.js",
+    "test-npm": "node test/test.js"
   },
   "dependencies": {
     "next": "16.0.3",

@@ -1,0 +1,22 @@
+# Ignore web application files for npm package
+node_modules/
+.next/
+.vercel/
+.env*
+src/
+public/
+next.config.mjs
+postcss.config.mjs
+tailwind.config.mjs
+eslint.config.mjs
+jsconfig.json
+package.json
+README.md
+README-JPACK.md
+
+# Keep only npm package files
+!lib/
+!test/
+!package-npm.json
+!README-NPM.md
+!LICENSE
